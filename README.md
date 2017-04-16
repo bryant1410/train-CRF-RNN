@@ -45,7 +45,7 @@ You should be aware that if an image label is composed from more than one class 
 
 ```bash
 python filter_images.py labels/ train.txt # in a case you DID NOT RUN convert_labels.py script
-#python filter_images.py converted_labels/ train.txt # you RUN convert_labels.py script
+# python filter_images.py converted_labels/ train.txt # you RUN convert_labels.py script
 ```
 
 
@@ -60,7 +60,7 @@ Following command will create four directories with training/testing data for im
 
 ```bash
 python data2lmdb.py # in a case you DID NOT RUN convert_labels.py script
-#python data2lmdb.py converted_labels/ # you RUN convert_labels.py script
+# python data2lmdb.py converted_labels/ # you RUN convert_labels.py script
 ```
 
 ## Training
